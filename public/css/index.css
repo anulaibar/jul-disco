@@ -6,10 +6,9 @@ body {
 
 h1 {
     font-size: 250%;
-    padding: 1em 1.6em;
     font-weight: 100;
     border-radius: 5px;
-    line-height: 1em;
+    line-height: 1.4em;
 }
 
 h3 {
@@ -75,7 +74,6 @@ a.pure-button-primary {
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 0.1em;
-    margin: 2em 0 1em;
 }
 
 .content-subhead i {
