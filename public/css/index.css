@@ -1,0 +1,123 @@
+body {
+    line-height: 1.7em;
+    font-size: 16px;
+    color: DimGray;
+}
+
+h1 {
+    font-size: 250%;
+    padding: 1em 1.6em;
+    font-weight: 100;
+    border-radius: 5px;
+    line-height: 1em;
+}
+
+h3 {
+    color: GoldenRod;
+}
+
+li {
+    list-style-type:none;
+}
+
+a {
+    text-decoration: none;
+    color: GoldenRod;
+}
+
+.pure-menu.pure-menu-open.pure-menu-fixed {
+    padding: 0.5em;
+    z-index: 4;
+    background: DarkGreen;
+    border-bottom: none;
+}
+
+.pure-menu.pure-menu-horizontal, .pure-menu.pure-menu-horizontal .pure-menu-heading {
+    color: White;
+    font-size: 120%;
+}
+
+.banner {
+    background: transparent url('../img/santa.jpg') 0 0 no-repeat fixed;
+    text-align: center;
+    background-size: cover;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/santa.jpg', sizingMethod='scale');
+    height: 400px;
+    width: 100%;
+    display: table;
+}
+
+.banner-head {
+    display: table-cell;
+    vertical-align: middle;
+    margin-bottom: 0;
+    font-size: 3em;
+    color: white;
+    font-weight: 500;
+    text-shadow: 0 1px 1px black;
+}
+
+.pure-button {
+    padding: 0.5em 2em;
+}
+
+a.pure-button-primary {
+    background: White;
+    color: GoldenRod;
+    border-radius: 5px;
+    font-size: 120%;
+}
+
+.content-wrapper {
+    position: absolute;
+    width: 100%;
+    min-height: 12%;
+    z-index: 2;
+    background: White;
+}
+
+.content {
+    padding: 1em;
+}
+
+.content-head {
+    color: DarkGreen;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin: 2em 0 1em;
+}
+
+.content-subhead i {
+    margin-right: 7px;
+}
+
+.is-center {
+    text-align: center;
+}
+
+.ribbon {
+    background: DarkGreen;
+    color: White;
+}
+
+.ribbon h2 {
+    color: White;
+}
+
+.l-box {
+    padding: 1em;
+}
+
+.l-box-lrg {
+    padding: 2em;
+}
+
+.footer {
+    height: 50%;
+    background: DarkGreen;
+    color: White;
+    padding: 1em;
+    text-align: center;
+}
+
