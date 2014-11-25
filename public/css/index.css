@@ -13,7 +13,7 @@ h1 {
 }
 
 h3 {
-    color: GoldenRod;
+    color: DarkRed;
 }
 
 li {
@@ -22,13 +22,13 @@ li {
 
 a {
     text-decoration: none;
-    color: GoldenRod;
+    color: DarkRed;
 }
 
 .pure-menu.pure-menu-open.pure-menu-fixed {
     padding: 0.5em;
     z-index: 4;
-    background: DarkGreen;
+    background: Black;
     border-bottom: none;
 }
 
@@ -42,19 +42,9 @@ a {
     text-align: center;
     background-size: cover;
     filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/santa.jpg', sizingMethod='scale');
-    height: 400px;
+    height: 440px;
     width: 100%;
     display: table;
-}
-
-.banner-head {
-    display: table-cell;
-    vertical-align: middle;
-    margin-bottom: 0;
-    font-size: 3em;
-    color: white;
-    font-weight: 500;
-    text-shadow: 0 1px 1px black;
 }
 
 .pure-button {
@@ -63,7 +53,7 @@ a {
 
 a.pure-button-primary {
     background: White;
-    color: GoldenRod;
+    color: DarkRed;
     border-radius: 5px;
     font-size: 120%;
 }
@@ -81,7 +71,7 @@ a.pure-button-primary {
 }
 
 .content-head {
-    color: DarkGreen;
+    color: Black;
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 0.1em;
@@ -97,7 +87,7 @@ a.pure-button-primary {
 }
 
 .ribbon {
-    background: DarkGreen;
+    background: Black;
     color: White;
 }
 
@@ -115,8 +105,8 @@ a.pure-button-primary {
 
 .footer {
     height: 50%;
-    background: DarkGreen;
-    color: White;
+    background: White;
+    color: Black;
     padding: 1em;
     text-align: center;
 }
